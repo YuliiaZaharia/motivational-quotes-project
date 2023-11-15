@@ -1,7 +1,21 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1497414146483-5bcafdccfdff?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://images.unsplash.com/photo-1564774923241-9bfc1c2911d6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
 }
 
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+#btn {
+    border: 1px solid #FF3D68; 
+    padding: 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-family: 'Lobster', sans-serif;
+}
