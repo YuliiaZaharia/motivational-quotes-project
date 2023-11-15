@@ -1,7 +1,8 @@
 const button = document.querySelector("#btn"); 
-const par = document.querySelector("showQuote"); 
+const par = document.querySelector("#par"); 
 
-const quotes = ["You must be the change you wish to see in the world, - Mahatma Gandhi", 
+const quotes = [
+"You must be the change you wish to see in the world, - Mahatma Gandhi", 
 "The only thing we have to fear is fear itself, - Franklin D. Roosevelt", 
 "Do one thing every day that scares you. -Eleanor Roosevelt", 
 "Well done is better than well said, - Benjamin Franklin", 
@@ -13,4 +14,10 @@ const quotes = ["You must be the change you wish to see in the world, - Mahatma 
 "When you undervalue what you do, the world will undervalue who you are, - Oprah Winfrey", 
 "Believe you can and you're halfway there, - Theodore Roosevelt", 
 "I would rather die of passion than of boredom, Vincent van Gogh"
-]; 
+]
+
+button.addEventListener("click", () => {
+    let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    par.style.display = "block";
+    par.textContent = randomQuote;
+  })
