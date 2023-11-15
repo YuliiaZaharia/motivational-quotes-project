@@ -14,8 +14,10 @@ body {
 
 #btn {
     border: 1px solid #FF3D68; 
-    padding: 30px;
-    border-radius: 50px;
+    padding: 15px;
+    border-radius: 20px;
     background-color: #fff;
     font-family: 'Lobster', sans-serif;
+    font-size: 40px;
+    position: fixed;
 }
