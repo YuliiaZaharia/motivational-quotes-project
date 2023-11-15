@@ -21,3 +21,16 @@ body {
     font-size: 40px;
     position: fixed;
 }
+
+#par {
+    display: none;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    background-color: #fff;
+    margin-top: 500px;
+    padding: 20px;
+    border: 5px solid #78DEC7;
+    border-radius: 50px;
+    width: 70%;
+    text-align: center;
+  }
